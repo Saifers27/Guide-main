@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "upload:lessons": "node --experimental-json-modules scripts/uploadToFirestore.js"
+    "upload:lessons": "node --experimental-json-modules scripts/uploadToFirestore.js",
+    "build:kanji": "node ./scripts/build-kanji-dataset.mjs"
   },
   "dependencies": {
     "firebase": "^12.5.0",
